@@ -355,6 +355,14 @@ img {
   background: linear-gradient(135deg, #103c77, #4ca7ff);
 }
 
+.shooter-panel {
+  background: linear-gradient(135deg, #0c4d32, #53b676);
+}
+
+.run-panel {
+  background: linear-gradient(135deg, #7a3d02, #ff9a2f);
+}
+
 .youtube-panel {
   background: linear-gradient(135deg, #2d2d2d, #878787);
 }
@@ -375,6 +383,29 @@ img {
 .project-badge {
   background: linear-gradient(to bottom, #ffd65a, #e38d11);
   color: #5a2a00;
+}
+
+.shooter-badge,
+.run-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 104px;
+  height: 86px;
+  padding: 0 16px;
+  border-radius: 18px;
+  color: #fff;
+  font: 700 34px/1 Arial, Helvetica, sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.shooter-badge {
+  background: linear-gradient(to bottom, #9df2ba, #1f7f4f);
+  color: #09341f;
+}
+
+.run-badge {
+  background: linear-gradient(to bottom, #ffd18d, #f06f12);
 }
 
 .play-pill {
@@ -413,7 +444,7 @@ img {
 
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -459,12 +490,39 @@ img {
   font-weight: 700;
 }
 
+.thumb-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 84px;
+  height: 84px;
+  margin: 36px auto 0;
+  padding: 0 14px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #111;
+  font: 700 34px/1 Arial, Helvetica, sans-serif;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.16);
+}
+
+.thumb-badge.wide {
+  min-width: 104px;
+}
+
 .retro-red {
   background: linear-gradient(135deg, #3b0e0b, #af1f18);
 }
 
 .retro-blue {
   background: linear-gradient(135deg, #072a52, #3e7fc7);
+}
+
+.retro-green {
+  background: linear-gradient(135deg, #083120, #3fa567);
+}
+
+.retro-orange {
+  background: linear-gradient(135deg, #6d3000, #e98a22);
 }
 
 .retro-gold {
