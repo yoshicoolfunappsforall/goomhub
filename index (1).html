@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goomnet | Goomba Escape</title>
+  <meta
+    name="description"
+    content="Goomnet is the main hub for Goomba Escape, YSlides, 2D E Shooter, Goomba Run, and videos from theyoshifrfr."
+  >
+  <link rel="preconnect" href="https://i.ibb.co">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#home" aria-label="Goomnet home">
+          <img src="https://i.ibb.co/v44YDSqk/2026-03-20-0yn-Kleki.png" alt="Goomnet logo">
+        </a>
+
+        <form class="searchbar" action="https://goombaescape.netlify.app" method="get">
+          <input type="text" name="q" value="goomba escape" aria-label="Search">
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="topbar-actions">
+          <a href="https://www.youtube.com/@theyoshifrfr" target="_blank" rel="noreferrer">Channel</a>
+          <a href="https://goombaescape.netlify.app" target="_blank" rel="noreferrer">Play Goomba Escape</a>
+        </div>
+      </div>
+      <nav class="subnav" aria-label="Site sections">
+        <a href="#featured" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#announcements">Announcements</a>
+        <a href="#about">About</a>
+        <a href="https://goombaescape.netlify.app" target="_blank" rel="noreferrer">Play Now</a>
+      </nav>
+    </header>
+
+    <main class="content" id="home">
+      <aside class="sidebar">
+        <section class="sidebar-block">
+          <h2>Browse</h2>
+          <a href="#featured">Start here</a>
+          <a href="#projects">What to play</a>
+          <a href="#announcements">Announcements</a>
+          <a href="#about">About the channel</a>
+          <a href="https://www.youtube.com/@theyoshifrfr" target="_blank" rel="noreferrer">Visit YouTube</a>
+        </section>
+
+        <section class="sidebar-block">
+          <h2>For viewers</h2>
+          <a href="https://goombaescape.netlify.app" target="_blank" rel="noreferrer">Play Goomba Escape</a>
+          <a href="https://yslides.netlify.app/" target="_blank" rel="noreferrer">Try YSlides</a>
+          <a href="https://2deeshooter.netlify.app/" target="_blank" rel="noreferrer">Play 2D E Shooter</a>
+          <a href="https://goombarun.netlify.app/" target="_blank" rel="noreferrer">Play Goomba Run</a>
+          <a href="https://www.youtube.com/@theyoshifrfr" target="_blank" rel="noreferrer">Watch on YouTube</a>
+        </section>
+
+        <section class="sidebar-block promo">
+          <p class="promo-label">Start here</p>
+          <p>Begin with Goomba Escape, then scroll down for the rest of the games and the latest channel picks.</p>
+        </section>
+      </aside>
+
+      <section class="main-column">
+        <section class="hero card" id="featured">
+          <div class="hero-media">
+            <img
+              src="https://i.ibb.co/hRSfLyq9/2026-03-01-0tk-Kleki.png"
+              alt="Goomba Escape character art"
+            >
+            <span class="hero-duration">0:59</span>
+          </div>
+
+          <div class="hero-copy">
+            <p class="eyebrow">Featured game</p>
+            <h1>Goomba Escape</h1>
+            <p class="hero-meta">Now on Goomnet | Adventure / Horror / Escape</p>
+            <p class="hero-text">
+              Goomba Escape is the first stop on Goomnet: a strange, tense escape game with a
+              Mario-inspired look and a much weirder mood once you get into it.
+            </p>
+            <div class="hero-actions">
+              <a class="watch-button" href="https://goombaescape.netlify.app" target="_blank" rel="noreferrer">
+                Play Goomba Escape
+              </a>
+              <a class="secondary-button" href="#announcements">See announcements</a>
+            </div>
+            <dl class="stats">
+              <div>
+                <dt>Best for</dt>
+                <dd>Players who like eerie Mario-style horror</dd>
+              </div>
+              <div>
+                <dt>Main character</dt>
+                <dd>A Goomba trying to survive</dd>
+              </div>
+              <div>
+                <dt>First click</dt>
+                <dd>Play the featured game</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+
+        <section class="card featured-video-section" id="featured-video">
+          <div class="section-header">
+            <h2>Featured Video</h2>
+            <span>Random upload from the channel</span>
+          </div>
+
+          <div class="featured-video-layout">
+            <div class="featured-video-player">
+              <div id="featured-video-embed" class="featured-video-embed" aria-label="Featured YouTube video"></div>
+            </div>
+
+            <div class="featured-video-copy">
+              <p class="eyebrow">From selected videos</p>
+              <h3 id="featured-video-title">Random pick from @theyoshifrfr</h3>
+              <p>
+                This section rotates between a small set of selected uploads so a different video
+                can be featured each time the page loads.
+              </p>
+              <a
+                class="watch-button small"
+                id="featured-video-link"
+                href="https://www.youtube.com/@theyoshifrfr/videos"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Watch selected video
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card projects-section" id="projects">
+          <div class="section-header">
+            <h2>More from Goomnet</h2>
+            <span>Games, projects, and channel links</span>
+          </div>
+
+          <div class="project-list">
+            <article class="project-card">
+              <div class="project-visual goomba-panel">
+                <img src="https://i.ibb.co/hRSfLyq9/2026-03-01-0tk-Kleki.png" alt="Goomba Escape project art">
+              </div>
+              <div class="project-copy">
+                <p class="eyebrow">Featured</p>
+                <h3>Goomba Escape</h3>
+                <p>
+                  The main game being highlighted right now. If you want the signature Goomnet
+                  experience first, start here.
+                </p>
+                <a class="watch-button small" href="https://goombaescape.netlify.app" target="_blank" rel="noreferrer">
+                  Play now
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual slides-panel">
+                <div class="project-badge">Y</div>
+              </div>
+              <div class="project-copy">
+                <p class="eyebrow">Presentation tool</p>
+                <h3>YSlides</h3>
+                <p>
+                  A Google Slides-style project for building and presenting decks in a simpler,
+                  browser-based format.
+                </p>
+                <a class="watch-button small" href="https://yslides.netlify.app/" target="_blank" rel="noreferrer">
+                  Try YSlides
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual shooter-panel">
+                <div class="shooter-badge">2D</div>
+              </div>
+              <div class="project-copy">
+                <p class="eyebrow">Arcade action</p>
+                <h3>2D E Shooter</h3>
+                <p>
+                  Fast, simple, and direct. This is the pick for anyone who wants action right away
+                  without the slower horror buildup.
+                </p>
+                <a class="watch-button small" href="https://2deeshooter.netlify.app/" target="_blank" rel="noreferrer">
+                  Play 2D E Shooter
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual run-panel">
+                <div class="run-badge">RUN</div>
+              </div>
+              <div class="project-copy">
+                <p class="eyebrow">Quick run</p>
+                <h3>Goomba Run</h3>
+                <p>
+                  A lighter, replayable game made for quick sessions, fast retries, and trying to do
+                  better on the next run.
+                </p>
+                <a class="watch-button small" href="https://goombarun.netlify.app/" target="_blank" rel="noreferrer">
+                  Play Goomba Run
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual youtube-panel">
+                <div class="play-pill">YT</div>
+              </div>
+              <div class="project-copy">
+                <p class="eyebrow">Channel</p>
+                <h3>@theyoshifrfr</h3>
+                <p>
+                  Videos, updates, and extra uploads all live here, so this is the best place to
+                  watch new stuff outside the games themselves.
+                </p>
+                <a class="watch-button small" href="https://www.youtube.com/@theyoshifrfr" target="_blank" rel="noreferrer">
+                  Watch channel
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="card feed-section" id="announcements">
+          <div class="section-header">
+            <h2>Announcements</h2>
+            <span>What is planned for Goomnet</span>
+          </div>
+
+          <div class="announcement-list">
+            <article class="announcement-card">
+              <p class="eyebrow">Update</p>
+              <h3>Goomba Escape update in the works</h3>
+              <p>More changes are planned for Goomba Escape, including new content and a fresh round of previews.</p>
+            </article>
+
+            <article class="announcement-card">
+              <p class="eyebrow">Videos</p>
+              <h3>Trailer videos are coming later</h3>
+              <p>The video area is being saved for trailers, update clips, and short feature-style uploads once they are ready.</p>
+            </article>
+
+            <article class="announcement-card">
+              <p class="eyebrow">Channel</p>
+              <h3>More content is on the way</h3>
+              <p>Expect more uploads, smaller announcements, and extra channel posts as the site and projects keep growing.</p>
+            </article>
+        </section>
+
+        <section class="card about-section" id="about">
+          <div class="section-header">
+            <h2>About Goomnet</h2>
+            <span>The home for games, projects, and videos</span>
+          </div>
+
+          <div class="about-layout">
+            <div class="channel-box">
+              <img
+                class="channel-avatar"
+                src="https://i.ibb.co/hRSfLyq9/2026-03-01-0tk-Kleki.png"
+                alt="Goomba Escape mascot"
+              >
+              <div>
+                <h3>Goomnet</h3>
+                <p>A retro-inspired hub that brings your games, side projects, and YouTube content into one place.</p>
+              </div>
+            </div>
+
+            <div class="info-box">
+              <p>
+                Goomnet gives visitors one place to jump into Goomba Escape, try YSlides, play 2D E
+                Shooter and Goomba Run, and keep up with everything on your channel without bouncing
+                between separate links first.
+              </p>
+              <a class="watch-button small" href="https://www.youtube.com/@theyoshifrfr" target="_blank" rel="noreferrer">
+                Visit the channel
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      const container = document.getElementById('featured-video-embed');
+      const featuredVideos = [
+        {
+          id: 'q-H5GXptCyQ',
+          title: 'Goomba Escape video',
+          url: 'https://www.youtube.com/watch?v=q-H5GXptCyQ&t=63s'
+        },
+        {
+          id: 'q__wWpRlWGU',
+          title: 'Featured short',
+          url: 'https://www.youtube.com/shorts/q__wWpRlWGU'
+        },
+        {
+          id: 'pYmnk2Aptzw',
+          title: 'Featured short',
+          url: 'https://www.youtube.com/shorts/pYmnk2Aptzw'
+        },
+        {
+          id: 'GfuszcCLMX8',
+          title: 'Featured short',
+          url: 'https://www.youtube.com/shorts/GfuszcCLMX8'
+        }
+      ];
+
+      if (!container || !featuredVideos.length) {
+        return;
+      }
+
+      const selectedVideo = featuredVideos[Math.floor(Math.random() * featuredVideos.length)];
+      const titleNode = document.getElementById('featured-video-title');
+      const linkNode = document.getElementById('featured-video-link');
+
+      container.innerHTML =
+        '<iframe ' +
+        'src="https://www.youtube.com/embed/' + selectedVideo.id + '?rel=0" ' +
+        'title="' + selectedVideo.title + '" ' +
+        'loading="lazy" ' +
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
+        'allowfullscreen>' +
+        '</iframe>';
+
+      if (titleNode) {
+        titleNode.textContent = selectedVideo.title;
+      }
+
+      if (linkNode) {
+        linkNode.href = selectedVideo.url;
+      }
+    }());
+  </script>
+</body>
+</html>
